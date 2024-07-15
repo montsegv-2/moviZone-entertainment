@@ -15,6 +15,9 @@ module.exports = {
         sans: ["Roboto", "ui-sans-serif", "system-ui"],
         BaskervvilleSC: ["Baskervville SC", "serif"],
       },
+      colors: {
+        "custom-background": "#1a202c",
+      },
     },
   },
   plugins: [],
