@@ -67,6 +67,9 @@ ng serve --open
 
 ## User Interface
 
+- [Login](/public/assets/login.png)
+- [Register](/public/assets/register.png)
+
 ## ⚒️ Tools used
 
 - TypeSccript
