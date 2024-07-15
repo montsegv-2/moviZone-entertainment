@@ -2,7 +2,7 @@
 
 ## 🍿🎬 Movizone 🎬🍿
 
-![Badge in progress](https://img.shields.io/badge/STATUS-IN-PROGRESS-green)
+![Badge in progress](https://img.shields.io/badge/STATUS-INPROGRESS-orange)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
@@ -10,9 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Functional Requirements](#functional-requirements)
 - [How to Install and Run the Project](#how-to-install-and-run-the-project.)
 - [User Interface](#user-interface.)
-
-* [Tools used](#tools-used)
-* [Credits](#credits)
+- [Tools used](#tools-used)
+- [Credits](#credits)
 
 ## Descripcion of project
 
