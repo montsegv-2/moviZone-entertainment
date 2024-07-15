@@ -1,0 +1,46 @@
+<div class="">
+  <header class="w-full bg-gray-800 border-t shadow-sm body-font text-teal-50">
+    <div
+      class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row"
+    >
+      <ul class="flex flex-wrap items-center text-2xl lg:w-2/5 md:ml-auto">
+        <a
+          [routerLink]="['/admin/home']"
+          class="mr-7 font-medium hover:text-indigo-400"
+        >
+          Home
+        </a>
+        <a
+          [routerLink]="['/admin/series']"
+          class="mr-7 font-medium hover:text-indigo-400"
+        >
+          Series
+        </a>
+        <a
+          [routerLink]="['/admin/favorites']"
+          class="font-medium hover:text-indigo-400"
+        >
+          Favoritos
+        </a>
+      </ul>
+      <a
+        routerLink="/admin/home"
+        class="flex items-center order-first mb-4 font-medium text-teal-100 lg:order-none lg:w-1/5 title-font lg:items-center lg:justify-center md:mb-0"
+      >
+        <div class="flex justify-center mb-1">
+          <img src="./assets/nameLogo.png" class="h-10 w-34" />
+        </div>
+      </a>
+      <div
+        class="inline-flex items-center h-full ml-5 lg:w-2/5 lg:justify-end lg:ml-0 mt-3"
+      >
+        <a
+          routerLink="/auth/login"
+          class="px-4 py-3 text-lg font-bold text-white uppercase transition-all duration-150 bg-indigo-500 rounded-xl shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
+        >
+          Cerrar sesión
+        </a>
+      </div>
+    </div>
+  </header>
+</div>
