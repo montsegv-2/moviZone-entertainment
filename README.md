@@ -1,8 +1,8 @@
-![MovieZone Logo](/public/assets/logo.png)
+![MovieZone Logo](/public/assets/logoInvertido.png)
 
 ## 🍿🎬 Movizone 🎬🍿
 
-![Badge in progress](https://img.shields.io/badge/STATUS-DONE-green)
+![Badge in progress](https://img.shields.io/badge/STATUS-IN-PROGRESS-green)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
