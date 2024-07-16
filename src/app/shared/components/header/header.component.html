@@ -1,9 +1,9 @@
 <div class="">
   <header class="w-full bg-gray-800 border-t shadow-sm body-font text-teal-50">
     <div
-      class="container flex flex-col flex-wrap items-center p-4 ml-20 md:flex-row"
+      class="container flex flex-col flex-wrap items-center p-3 mx-auto md:flex-row"
     >
-      <ul class="flex flex-wrap items-center text-xl lg:w-2/5 md:ml-auto">
+      <ul class="flex flex-wrap items-center text-md lg:w-2/5 md:ml-auto">
         <a
           [routerLink]="['/admin/home']"
           class="mr-7 font-medium hover:text-indigo-400"
@@ -28,15 +28,65 @@
         class="flex items-center order-first mb-4 font-medium text-teal-100 lg:order-none lg:w-1/5 title-font lg:items-center lg:justify-center md:mb-0"
       >
         <div class="flex justify-center mb-1">
-          <img src="./assets/nameLogo.png" class="h-10 w-34" />
+          <img src="./assets/nameLogo.png" class="h-7 w-26" />
         </div>
       </a>
       <div
         class="inline-flex items-center h-full ml-5 lg:w-2/5 lg:justify-end lg:ml-0 mt-3"
       >
+        <div class="relative">
+          <button
+            (click)="toggleSearch()"
+            class="p-2 text-white bg-gray-700 rounded-full focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-4.35-4.35M17 10.5a6.5 6.5 0 10-13 0 6.5 6.5 0 0013 0z"
+              ></path>
+            </svg>
+          </button>
+          <div
+            *ngIf="isSearchVisible"
+            class="absolute -top-0.5 right-0 mt-0 flex items-center"
+          >
+            <input
+              type="text"
+              placeholder="Buscar películas..."
+              class="px-2 py-2 leading-tight text-sm text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:shadow-outline"
+            />
+            <button
+              (click)="toggleSearch()"
+              class="ml-2 p-2 text-white-700 bg-gray-500 rounded-full focus:outline-none"
+            >
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
         <a
           routerLink="/auth/login"
-          class="px-4 py-3 text-md font-bold text-white uppercase transition-all duration-150 bg-indigo-500 rounded-xl shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
+          class="ml-4 px-3 py-2 text-sm font-semibold text-white transition-all duration-150 bg-indigo-500 rounded-md shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
         >
           Cerrar sesión
         </a>
