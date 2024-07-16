@@ -1,7 +1,8 @@
 import { Routes } from '@angular/router';
-import { CardDetailComponent } from './card-detail/card-detail.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
+import { CardComponent } from './card/card.component';
 
 export const CARD_ROUTES: Routes = [
-  { path: 'card-detail', component: CardDetailComponent },
-  { path: 'carrousel', component: CardDetailComponent },
+  { path: 'card', component: CardComponent },
+  { path: 'carrousel', component: CarrouselComponent },
 ];

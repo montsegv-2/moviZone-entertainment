@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Tools used](#tools-used)
 - [Credits](#credits)
 
-## Descripcion of project
+## Description of project
 
 MoviZone is a web application inspired by streaming platforms, designed to provide users with a centralized platform for streaming movies and series. Built using Angular 18 and Tailwind CSS, this application offers a seamless user experience with features such as user authentication, dynamic content display, and intuitive navigation.
 
