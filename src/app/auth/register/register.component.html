@@ -22,7 +22,7 @@
         </div>
 
         <h1
-          class="text-2xl lg:text-3xl xl:text-4xl text-white font-bold leading-tight mt-2 flex justify-center"
+          class="text-2xl lg:text-2xl xl:text-2xl text-white font-bold leading-tight mt-2 flex justify-center"
         >
           Registrate para continuar
         </h1>
@@ -30,26 +30,26 @@
         <form class="mt-8" action="#" method="POST">
           <div class="flex flex-row justify-between space-x-4">
             <div>
-              <label class="block text-xl text-gray-300">Nombre</label>
+              <label class="block text-lg text-gray-300">Nombre</label>
               <input
                 type="name"
                 name=""
                 id="name"
                 placeholder="John"
-                class="w-full text-lg px-4 py-4 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
+                class="w-full text-lg px-4 py-3 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
                 autofocus
                 autocomplete
                 required
               />
             </div>
             <div>
-              <label class="block text-xl text-gray-300">Apellido</label>
+              <label class="block text-lg text-gray-300">Apellido</label>
               <input
                 type="last-name"
                 name=""
                 id="last-name"
                 placeholder="Doe"
-                class="w-full text-lg px-4 py-4 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
+                class="w-full text-lg px-4 py-3 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
                 autofocus
                 autocomplete
                 required
@@ -57,13 +57,13 @@
             </div>
           </div>
           <div class="mt-6">
-            <label class="block text-xl text-gray-300">Email</label>
+            <label class="block text-lg text-gray-300">Email</label>
             <input
               type="email"
               name=""
               id="email"
               placeholder="ejemplo@gmail.com"
-              class="w-full text-lg px-4 py-4 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
+              class="w-full text-lg px-4 py-3 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
               autofocus
               autocomplete
               required
@@ -71,35 +71,35 @@
           </div>
 
           <div class="mt-6">
-            <label class="block text-xl text-gray-300">Contraseña</label>
+            <label class="block text-lg text-gray-300">Contraseña</label>
             <input
               type="password"
               name=""
               id="password"
               placeholder="Ingresa tu contraseña"
               minlength="6"
-              class="w-full text-lg px-4 py-4 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
+              class="w-full text-lg px-4 py-3 rounded-lg bg-gray-700 mt-2 border border-gray-600 focus:border-indigo-700 focus:bg-gray-600 focus:outline-none text-white"
               required
             />
           </div>
 
           <button
             type="submit"
-            class="w-full block bg-indigo-700 hover:bg-indigo-500 focus:bg-indigo-500 text-white font-semibold rounded-lg px-4 py-4 mt-6 text-lg lg:text-xl xl:text-2xl"
+            class="w-full block bg-indigo-700 hover:bg-indigo-500 focus:bg-indigo-500 text-white font-semibold rounded-lg px-4 py-3 mt-6 text-lg lg:text-xl xl:text-xl"
           >
             Registrarte
           </button>
         </form>
 
-        <hr class="my-6 border-gray-600 w-full" />
+        <hr class="my-5 border-gray-600 w-full" />
 
         <p
-          class="mt-6 text-gray-300 flex flex-row justify-center font-bold text-lg"
+          class="mt-3 text-gray-300 flex flex-row justify-center font-bold text-md"
         >
           Ya tienes una cuenta?
           <a
             routerLink="/auth/login"
-            class="text-indigo-400 hover:text-indigo-300 font-semibold ml-2"
+            class="text-indigo-400 hover:text-indigo-300 font-semibold ml-2 text-md"
             >Inicia sesión</a
           >
         </p>
