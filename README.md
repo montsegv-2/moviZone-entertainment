@@ -59,10 +59,9 @@ Enhances user engagement by enabling a personalized viewing experie
 
 ## ⚒️ Tools used
 
-- TypeSccript
-- Angular 18.1.0
-- Tailwind CSS
-- Karma
+- [![Angular][angular-badge]][angular-url] - The web framework for content-driven websites.
+- [![Typescript][typescript-badge]][typescript-url] - JavaScript with syntax for types.
+- [![Tailwind CSS][tailwind-badge]][tailwind-url] - A utility-first CSS framework for rapidly building custom designs.
 
 ## How to Install and Run the Project
 
