@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 <div align="center">
 
 ![MovieZone Logo](/public/assets/logoInvertido.png)
@@ -15,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [Description of project](#description-of-project)
 - [Functional Requirements](#functional-requirements)
-  - [Tools used](#tools-used)
+  - [ 🛠️ Tools used](#tools-used)
 - [How to Install and Run the Project](#how-to-install-and-run-the-project)
 - [Screenshots of the website](#screenshots-of-the-website)
 - [Process to create the project](#process-to-create-the-project)
@@ -110,3 +112,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 [<img src="https://avatars.githubusercontent.com/u/116055107?v=4" width=115><br><sub>Montserrat Aguilar Valle</sub>](https://github.com/montsegv-2)
 | :---: |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[typescript-url]: https://www.typescriptlang.org/
+[typescript-badge]: https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&color=blue
+[tailwind-url]: https://tailwindcss.com/
+[tailwind-badge]: https://img.shields.io/badge/Tailwind-ffffff?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8
+[angular-url]: https://angular.dev/
+[angular-badge]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
