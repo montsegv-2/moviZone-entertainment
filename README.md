@@ -1,17 +1,29 @@
+<div align="center">
+
 ![MovieZone Logo](/public/assets/logoInvertido.png)
 
 ## 🍿🎬 Movizone 🎬🍿
 
 ![Badge in progress](https://img.shields.io/badge/STATUS-INPROGRESS-orange)
 
+</div>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+
+<details>
+<summary>Table of contents</summary>
 
 - [Description of project](#description-of-project)
 - [Functional Requirements](#functional-requirements)
-- [How to Install and Run the Project](#how-to-install-and-run-the-project.)
-- [User Interface](#user-interface.)
-- [Tools used](#tools-used)
+  - [Tools used](#tools-used)
+- [How to Install and Run the Project](#how-to-install-and-run-the-project)
+- [Screenshots of the website](#screenshots-of-the-website)
+- [Process to create the project](#process-to-create-the-project)
+- [Sprint Review](#sprint-review)
+- [Test Images](#test-images)
 - [Credits](#credits)
+
+</details>
 
 ## Description of project
 
@@ -45,6 +57,13 @@ Allows users to explore and find content according to their preferences.
 A section where users can view and manage their favorite movies and series.
 Enhances user engagement by enabling a personalized viewing experie
 
+## ⚒️ Tools used
+
+- TypeSccript
+- Angular 18.1.0
+- Tailwind CSS
+- Karma
+
 ## How to Install and Run the Project
 
 The first and most important step is to clone the remote repository to run it locally.
@@ -65,17 +84,20 @@ To execute the main functionality of the program, you should run the following c
 ng serve --open
 ```
 
-## User Interface
+## Screenshots of the website
 
 - [Login](/public/assets/login.png)
 - [Register](/public/assets/register.png)
 
-## ⚒️ Tools used
+## Process to create the project
 
-- TypeSccript
-- Angular 18.1.0
-- Tailwind CSS
-- Karma
+## Sprint Review
+
+| What did I do right?                                                                                             | what I didn't do well            | What can i do differently?                          |
+| ---------------------------------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------- |
+| Successfully deploy the CSS design library, the folder layout in the project, and successfully implement Angular | Problems with the testing report | Spend more time understanding how to test correctly |
+
+## Test images
 
 ## Running end-to-end tests
 
