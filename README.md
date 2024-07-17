@@ -4,7 +4,7 @@
 
 ![MovieZone Logo](/public/assets/logoInvertido.png)
 
-## 🍿🎬 Movizone 🎬🍿
+## 🍿Your world of movies and series one click away🍿
 
 ![Badge in progress](https://img.shields.io/badge/STATUS-INPROGRESS-orange)
 
@@ -91,6 +91,8 @@ ng serve --open
 - [Register](/public/assets/register.png)
 
 ## Process to create the project
+
+To create this entertainment hub project using Angular 18 and Tailwind CSS, I started by initializing a new Angular project and installing Tailwind CSS. I configured Tailwind to work with Angular and created essential components like Home, favorites, series, Card, Carousel, and Login using Angular CLI. I then set up services for authentication and movie handling, and implemented route protection with an authentication guard. For the carousel feature, I used a service to fetch movie data and displayed it using Tailwind CSS classes for styling. Finally, I configured routing and tested the application to ensure it functioned as expected.
 
 ## Sprint Review
 
