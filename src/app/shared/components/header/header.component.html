@@ -1,5 +1,7 @@
 <div class="">
-  <header class="w-full bg-gray-800 border-t shadow-sm body-font text-teal-50">
+  <header
+    class="w-full inset-0 bg-gradient-to-b from-gray-800 to-gray-850 opacity-90 border-t shadow-sm body-font text-teal-50"
+  >
     <div
       class="container flex flex-col flex-wrap items-center p-3 mx-auto md:flex-row"
     >
@@ -61,11 +63,11 @@
             <input
               type="text"
               placeholder="Buscar películas..."
-              class="px-2 py-2 leading-tight text-sm text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:shadow-outline"
+              class="px-2 py-2 leading-tight text-sm text-white bg-gray-700 rounded-l-full focus:outline-none focus:shadow-outline"
             />
             <button
               (click)="toggleSearch()"
-              class="ml-2 p-2 text-white-700 bg-gray-500 rounded-full focus:outline-none"
+              class="px-2 py-2 text-white-700 bg-gray-700 rounded-r-full focus:outline-none"
             >
               <svg
                 class="w-4 h-4"
@@ -86,7 +88,7 @@
         </div>
         <a
           routerLink="/auth/login"
-          class="ml-4 px-3 py-2 text-sm font-semibold text-white transition-all duration-150 bg-indigo-500 rounded-md shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
+          class="ml-4 px-3 py-2 text-sm font-semibold text-white transition-all duration-150 bg-purpleBlue rounded-md shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
         >
           Cerrar sesión
         </a>
