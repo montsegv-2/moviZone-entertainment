@@ -16,7 +16,8 @@ module.exports = {
         BaskervvilleSC: ["Baskervville SC", "serif"],
       },
       colors: {
-        "custom-background": "#1a202c",
+        "custom-background": "#06041f",
+        purpleBlue: "#6152ff",
       },
     },
   },
