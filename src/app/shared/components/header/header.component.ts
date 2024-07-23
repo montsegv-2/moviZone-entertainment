@@ -11,8 +11,13 @@ import { RouterLink } from '@angular/router';
 })
 export class HeaderComponent {
   isSearchVisible = false;
+  isMenuVisible = false;
 
   toggleSearch() {
     this.isSearchVisible = !this.isSearchVisible;
+  }
+
+  toggleMenu() {
+    this.isMenuVisible = !this.isMenuVisible;
   }
 }
