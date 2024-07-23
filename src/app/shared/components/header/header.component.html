@@ -64,11 +64,13 @@
         <div class="relative sm:ml-auto">
           <div class="flex items-center">
             <input
+              #searchInput
               type="text"
               placeholder="Buscar películas..."
-              class="px-3 py-2 leading-tight text-sm text-white bg-gray-700 rounded-l-full focus:outline-none focus:shadow-outline"
+              class="h-8 px-2 py-2 leading-normal text-sm text-white bg-gray-700 rounded-l-full focus:outline-none focus:shadow-outline"
             />
             <button
+              (click)="clearSearch(searchInput)"
               class="px-2 py-2 text-white-700 bg-gray-700 rounded-r-full focus:outline-none"
             >
               <svg
@@ -81,7 +83,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  stroke-width="2"
+                  stroke-width="3"
                   d="M6 18L18 6M6 6l12 12"
                 ></path>
               </svg>

@@ -20,4 +20,8 @@ export class HeaderComponent {
   toggleMenu() {
     this.isMenuVisible = !this.isMenuVisible;
   }
+
+  clearSearch(inputElement: HTMLInputElement) {
+    inputElement.value = '';
+  }
 }
