@@ -10,18 +10,35 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  isSearchVisible = false;
-  isMenuVisible = false;
-
-  toggleSearch() {
-    this.isSearchVisible = !this.isSearchVisible;
-  }
+  isModalVisible: boolean = false;
+  isMenuVisible: boolean = false;
 
   toggleMenu() {
     this.isMenuVisible = !this.isMenuVisible;
   }
 
+  showModal() {
+    this.isModalVisible = true;
+  }
+
+  hideModal() {
+    this.isModalVisible = false;
+  }
+
   clearSearch(inputElement: HTMLInputElement) {
     inputElement.value = '';
   }
+  // showModal() {
+  //   const modal = document.getElementById('popup-modal');
+  //   if (modal) {
+  //     modal.classList.remove('hidden');
+  //   }
+  // }
+
+  // hideModal() {
+  //   const modal = document.getElementById('popup-modal');
+  //   if (modal) {
+  //     modal.classList.add('hidden');
+  //   }
+  // }
 }
