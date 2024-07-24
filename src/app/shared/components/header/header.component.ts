@@ -28,17 +28,4 @@ export class HeaderComponent {
   clearSearch(inputElement: HTMLInputElement) {
     inputElement.value = '';
   }
-  // showModal() {
-  //   const modal = document.getElementById('popup-modal');
-  //   if (modal) {
-  //     modal.classList.remove('hidden');
-  //   }
-  // }
-
-  // hideModal() {
-  //   const modal = document.getElementById('popup-modal');
-  //   if (modal) {
-  //     modal.classList.add('hidden');
-  //   }
-  // }
 }
