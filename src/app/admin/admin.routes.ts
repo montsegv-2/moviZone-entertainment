@@ -7,6 +7,4 @@ export const ADMIN_ROUTES: Routes = [
   { path: 'favorites', component: FavoritesComponent },
   { path: 'home', component: HomeComponent },
   { path: 'series', component: SeriesComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home' },
 ];
